@@ -1,0 +1,33 @@
+/* Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+	background-color: $color-container-bg;
+	clear: both;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	color: $color-body;
+	a {
+		color: $color-body;
+	}
+	input {
+		border: 1px solid $color-button-border;
+	}
+	a {
+		&.button, &:hover {
+			color: $color-body;
+		}
+	}
+	li {
+		border-bottom: 1px dotted #666;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.widget {
+		margin-bottom: 60px;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

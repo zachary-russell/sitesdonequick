@@ -1,0 +1,29 @@
+{
+  "name": "genesisthe.me-developer-starter",
+  "version": "1.0.0",
+  "description": "Starter theme for the Genesis Framework based on a mobile-first approach, Sassified for developers",
+  "author": "Jesse Petersen",
+  "homepage": "https://www.genesisthe.me",
+  "bugs": "https://bitbucket.org/genesistheme/genesistheme-developer-starter/issues",
+  "repository"  : {
+    "type": "git",
+    "url": "git@bitbucket.org:genesistheme/genesistheme-developer-starter.git"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0+",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ],
+  "devDependencies": {
+    "grunt"               : "latest",
+    "grunt-contrib-clean" : "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch" : "latest",
+    "grunt-contrib-sass"  : "latest",
+    "grunt-contrib-cssmin": "latest",
+    "load-grunt-tasks"    : "latest",
+    "grunt-autoprefixer"  : "latest",
+    "grunt-wp-i18n"		    : "latest"
+  }
+}

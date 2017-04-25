@@ -1,0 +1,17 @@
+/* Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+
+/* Site Containers
+--------------------------------------------- */
+
+.site-container {
+	background-color: $color-container-bg;
+	margin: 0 auto;
+}
+
+.site-inner {
+	clear: both;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 30px;
+}

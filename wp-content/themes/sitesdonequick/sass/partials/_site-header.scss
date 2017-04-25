@@ -1,0 +1,75 @@
+/* Site Header
+---------------------------------------------------------------------------------------------------- */
+
+.site-header {
+	background-color: $color-container-bg;
+	text-align: center;
+	border-bottom: 1px solid $color-button-border;
+	.wrap {
+		padding: 20px 0;
+	}
+}
+
+/* Site Title and Description
+--------------------------------------------- */
+
+.site-title {
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	line-height: $heading-font-line-height;
+	a {
+		color: $color-link-hover;
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
+}
+
+.header-image {
+	.title-area {
+		float: left;
+		display: block;
+		padding-left: 15px;
+		width: auto;
+	}
+	.site-title > a {
+		background: url(images/logo@2x.png) no-repeat !important;
+		background: url(images/logo.svg), none !important;
+		background-position: center left !important;
+		background-size: 130px 56px !important;
+		background-repeat: no-repeat !important;
+		float: left;
+		min-height: 56px;
+		width: 130px;
+	}
+	.site-description,
+	.site-title {
+		display: block;
+		text-indent: -9999px;
+		margin: 0;
+	}
+	button.menu-toggle {
+		float: right;
+		margin: 0 auto;
+		margin-right: 15px;
+		position: relative;
+	}
+}
+
+.site-description {
+	font-size: $base-font-size;
+	font-weight: $base-font-weight;
+	margin-bottom: 10px;
+	line-height: $heading-font-line-height;
+}
+
+/* Header Widget Area
+--------------------------------------------- */
+
+.header-widget-area .widget_text {
+	margin-top: 10px;
+	p {
+		margin-bottom: 0;
+	}
+}

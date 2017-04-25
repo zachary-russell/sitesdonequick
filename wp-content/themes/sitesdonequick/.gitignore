@@ -1,0 +1,31 @@
+# OS Stuff
+.DS_Store
+.thumbs
+.svnignore
+.svn
+
+# IDE Stuff
+
+# phpStorm
+.idea
+
+# SublimeText
+*.sublime-workspace
+*.sublime-project
+
+# Project Stuff
+deploy.sh
+
+# ignore node/grunt dependency directories and files
+node_modules
+bower_components
+.sass-cache
+
+# Misc
+Thumbs.db
+.dropbox
+.dropbox_cache
+.BridgeLabelsAndRatings
+robots.txt
+xml
+/xml

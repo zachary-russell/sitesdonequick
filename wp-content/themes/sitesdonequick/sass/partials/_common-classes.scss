@@ -1,0 +1,183 @@
+/* Common Classes
+---------------------------------------------------------------------------------------------------- */
+
+/* Avatar
+--------------------------------------------- */
+
+.avatar {
+	float: left;
+}
+
+.alignleft .avatar,
+.author-box .avatar {
+	margin-right: 24px;
+}
+
+.alignright .avatar {
+	margin-left: 24px;
+}
+
+.author-box .avatar {
+	height: 80px;
+	width: 80px;
+}
+
+.comment .avatar {
+	height: 50px;
+	margin: 0 16px 0 0;
+	width: 50px;
+	border-radius: 50%;
+}
+
+/* Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+	margin-bottom: 30px;
+}
+
+.archive-description,
+.author-box {
+	border-bottom: 5px solid $color-site-bg;
+	margin-bottom: 60px;
+	padding-bottom: 30px;
+}
+
+.single .author-box {
+	border-top: 5px solid $color-site-bg;
+	padding-top: 30px;
+}
+
+.author-box-title {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+.archive-description p:last-child,
+.author-box p:last-child {
+	margin-bottom: 0;
+}
+
+/* Search Form
+--------------------------------------------- */
+
+.search-form {
+	overflow: hidden;
+}
+
+.site-header .search-form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 50%;
+}
+
+.search-form input {
+	-webkit-appearance: none;
+	&[type="submit"] {
+		border: 0;
+		clip: rect(0, 0, 0, 0);
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+}
+
+/* Titles
+--------------------------------------------- */
+
+.archive-title {
+	font-size: 20px;
+}
+
+.entry-title {
+	font-size: 30px;
+	a {
+		color: $color-body;
+	}
+}
+
+.sidebar .widget-title a {
+	color: $color-body;
+}
+
+.entry-title a:hover {
+	color: $color-link;
+}
+
+.widget-title {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.footer-widgets .widget-title {
+	color: $color-light-link;
+}
+
+/* WordPress
+--------------------------------------------- */
+
+a {
+	&.aligncenter img {
+		display: block;
+		margin: 0 auto;
+	}
+	&.alignnone {
+		display: inline-block;
+	}
+}
+
+.alignleft {
+	float: left;
+	text-align: left;
+}
+
+.alignright {
+	float: right;
+	text-align: right;
+}
+
+a {
+	&.alignleft,
+	&.alignnone,
+	&.alignright {
+		max-width: 100%;
+	}
+}
+
+img.centered,
+.aligncenter {
+	display: block;
+	margin: 0 auto 24px;
+}
+
+img.alignnone,
+.alignnone {
+	margin-bottom: 12px;
+}
+
+a.alignleft,
+img.alignleft,
+.wp-caption.alignleft {
+	margin: 0 24px 24px 0;
+}
+
+a.alignright,
+img.alignright,
+.wp-caption.alignright {
+	margin: 0 0 24px 24px;
+}
+
+.wp-caption-text {
+	font-size: 14px;
+	font-weight: $heading-font-weight;
+	text-align: center;
+}
+
+.entry-content p.wp-caption-text {
+	margin-bottom: 0;
+}
+
+.sticky {}

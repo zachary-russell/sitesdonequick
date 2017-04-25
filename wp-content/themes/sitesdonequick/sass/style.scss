@@ -1,0 +1,87 @@
+/*
+	Theme Name: SitesDoneQuick
+	Theme URI: https://github.com/zachary-russell/sitesdonequick.git
+	Description: A mobile-first, responsive, A11y-ready, and HTML5 theme built for the Genesis Framework using Sass.
+	Author: Zach Russell
+	Author URI: https://sitesdonequick.com
+
+	Version: 1.0.6
+
+	Tags: mobile-first, responsive, genesiswp, sass, developer, starter
+
+	Template: genesis
+	Template Version: 2.2.4
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Table of Contents
+- Imports
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Genesis Simple Share
+	- Jetpack
+- Accessibility
+- Sticky Message
+- Site Header
+	- Site Title and Description
+	- Header Widget Area
+- Site Navigation
+	- Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebar
+- Footer Widgets
+- Site Footer
+- Media Queries
+	- Min-width: 800px
+*/
+
+
+@import "partials/_variables.scss";
+@import "partials/_colors.scss";
+@import "partials/_mixins.scss";
+
+@import "partials/_reset.scss";
+@import "partials/_defaults.scss";
+
+@import "partials/_structure-layout.scss";
+@import "partials/_common-classes.scss";
+@import "partials/_widgets.scss";
+@import "partials/_plugins.scss";
+@import "partials/_accessibility.scss";
+@import "partials/_site-header.scss";
+@import "partials/_site-navigation.scss";
+@import "partials/_content-area.scss";
+@import "partials/_sidebars.scss";
+@import "partials/_footer-widgets.scss";
+@import "partials/_site-footer.scss";
+@import "partials/_media-queries.scss";

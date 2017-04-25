@@ -1,0 +1,29 @@
+{
+  "name": "genesisthe.me-developer-starter",
+  "version": "1.0.0",
+  "description": "Starter theme for the Genesis Framework based on a mobile-first approach, Sassified for developers",
+  "author": "Jesse Petersen",
+  "homepage": "https://www.genesisthe.me",
+  "bugs": "https://bitbucket.org/genesistheme/genesistheme-developer-starter/issues",
+  "repository"  : {
+    "type": "git",
+    "url": "git@bitbucket.org:genesistheme/genesistheme-developer-starter.git"
+  },
+  "license": "GPL-3.0+",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-filter": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-line-ending-corrector": "latest",
+    "gulp-notify": "latest",
+    "gulp-rename": "latest",
+    "gulp-ruby-sass": "latest",
+    "gulp-sass": "latest",
+    "gulp-sort": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uglifycss": "latest",
+    "gulp-zip": "latest"
+  }
+}
