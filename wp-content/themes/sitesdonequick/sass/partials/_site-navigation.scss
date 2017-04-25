@@ -1,0 +1,341 @@
+/* Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+/* Accessible Menu
+--------------------------------------------- */
+
+.menu .menu-item {
+	&:focus {
+		position: static;
+	}
+	> a:focus + ul.sub-menu, &.sfHover > ul.sub-menu {
+		left: auto;
+		opacity: 0;
+	}
+}
+
+/* Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+.mobile .genesis-nav-menu {
+	clear: both;
+	-webkit-transition: none;
+	transition: none;
+	font-size: 16px;
+	line-height: 1;
+	width: 100%;
+	.menu-item {
+		display: inline-block;
+		text-align: left;
+		a {
+			color: $color-menu-link;
+			display: block;
+			padding: 10px 20px;
+			border-left: 5px solid transparent;
+			&:hover {
+				color: $color-link;
+				border-left: 5px solid $color-menu-link;
+			}
+		}
+	}
+	.current-menu-item > a {
+		color: $color-current-menu;
+	}
+	.sub-menu {
+		.current-menu-item > a {
+			border-left: 5px solid $color-menu-link;
+			&:hover {
+				color: $color-current-menu;
+			}
+		}
+		background-color: rgba(0, 0, 0, 0.05);
+		left: auto;
+		opacity: 1;
+		position: relative;
+		@include transition(opacity, 0.4s, ease-in-out);
+		z-index: 99;
+		a {
+			font-size: 14px;
+			padding: 10px 20px;
+			position: relative;
+			border-left: 5px solid $color-menu-link;
+		}
+	}
+	button.sub-menu-toggle {
+		background-color: $color-light-on-dark;
+		color: $color-dark-on-light;
+		&:hover {
+			background-color: $color-light-on-dark;
+			color: $color-dark-on-light;
+		}
+	}
+	.menu-item:hover {
+		position: static;
+		> .sub-menu {
+			left: auto;
+			opacity: 1;
+		}
+	}
+}
+
+/* Site Header Navigation
+--------------------------------------------- */
+
+.mobile .site-header {
+	nav.nav-header {
+		float: left;
+	}
+	.sub-menu {
+		border-top: 1px solid #eee;
+		.sub-menu {
+			margin-top: -56px;
+		}
+	}
+	.genesis-nav-menu {
+		padding: 0 15px 0 15px;
+		margin-top: 15px;
+		float: left;
+		li {
+		}
+		display: block;
+		li {
+			margin-left: 0;
+		}
+		&.menu-item a {
+			padding: 10px 15px 10px 10px;
+		}
+	}
+}
+
+/* Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+	background-color: transparent;
+	z-index: 999;
+	.genesis-nav-menu a {
+		color: $color-light-link;
+	}
+	.sub-menu {
+		background-color: rgba(255, 255, 255, 0.05);
+	}
+	.genesis-nav-menu {
+		background-color: $color-menu-bg;
+		a:hover, .current-menu-item > a, .sub-menu .current-menu-item > a:hover {
+			color: $color-current-menu;
+		}
+	}
+}
+
+/* Secondary Navigation
+--------------------------------------------- */
+
+.nav-secondary {
+	background-color: $color-container-bg;
+}
+
+.mobile .site-footer {
+	.nav-secondary {
+		margin-bottom: 40px;
+	}
+	.genesis-nav-menu {
+		padding: 0;
+	}
+}
+
+/* Responsive Navigation
+--------------------------------------------- */
+
+.mobile nav {
+	display: none;
+	position: relative;
+	width: 100%;
+	&.nav-secondary {
+		display: block;
+	}
+	&.pagination {
+		display: block;
+	}
+	.wrap {
+		padding: 0;
+	}
+	li.menu-item.button a {
+		color: $color-menu-link;
+	}
+	button.menu-toggle:hover {
+		background-color: transparent;
+	}
+}
+
+.menu-toggle,
+.sub-menu-toggle {
+	color: $color-dark-on-light;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	visibility: visible;
+}
+
+button.menu-toggle {
+	right: 0;
+	z-index: 1000;
+	display: block;
+	float: none;
+	text-align: center;
+	margin: 5px auto;
+	padding: 15px 18px;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px $color-button-border inset, 0px 1px 0px $color-button-border, 1px 0px 0px $color-button-border inset, -1px 0px 0px $color-button-border inset;
+	background: none;
+	color: $color-dark-on-light;
+	border: 0;
+	&:before {
+		padding: 0;
+		text-align: center;
+	}
+	&.activated {
+		background: $color-dark-on-light;
+		color: $color-light-on-dark;
+	}
+	.nav-secondary {
+		display: none;
+		visibility: hidden;
+	}
+	&:before,
+	&before:focus {
+		content: "\f333";
+		color: $color-dark-on-light;
+		display: inline-block;
+		font: normal 24px 'dashicons';
+		margin-right: 10px;
+		line-height: 1.1;
+	}
+	&.activated:before {
+		color: $color-light-on-dark;
+	}
+}
+
+button.sub-menu-toggle {
+	float: right;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	z-index: 100;
+}
+
+button.sub-menu-toggle:before {
+	content: "\f347";
+	display: inline-block;
+	margin-top: 5px;
+	font: normal 16px/1 'dashicons';
+	text-rendering: auto;
+	-webkit-transform: translate(0, 0);
+	-ms-transform:		 translate(0, 0);
+	transform:				 translate(0, 0);
+}
+
+.sub-menu-toggle.activated:before {
+	content: "\f343";
+}
+
+.mobile .genesis-nav-menu {
+	padding: 0 10px;
+	.menu-item {
+		display: block;
+		float: none;
+		position: relative;
+		text-align: left;
+		&.button {
+			background-color: $color-button-bg;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		&:hover {
+			position: relative;
+		}
+		a {
+			border-left: 5px solid transparent;
+			color: $color-menu-link;
+			padding: 10px 20px 10px 10px;
+			width: 100%;
+		}
+	}
+	.current-menu-item a {
+		background-color: $color-current-menu-bg;
+		&:hover {
+			border-left: 5px solid $color-current-menu;
+		}
+	}
+	.sub-menu {
+		border: none;
+	}
+	.menu-item > a:focus ul.sub-menu {
+		left: 0;
+		margin-left: 0;
+		.sub-menu {
+			left: 0;
+			margin-left: 0;
+		}
+	}
+	> .menu-item-has-children > a:after {
+		content: none;
+	}
+	.sub-menu {
+		clear: both;
+		display: none;
+		margin: 0;
+		opacity: 1;
+		position: static;
+		width: 100%;
+		.sub-menu {
+			margin: 0;
+		}
+		a {
+			border-left: 5px solid transparent;
+			padding-left: 20px;
+		}
+	}
+	nav {
+		.genesis-nav-menu .menu-item .sub-menu li a {
+			background-color: transparent;
+			color: $color-menu-link;
+			&:hover {
+				background-color: transparent;
+				color: $color-menu-link;
+			}
+		}
+		button:hover {
+			background-color: transparent;
+			color: $color-menu-link;
+		}
+		.genesis-nav-menu .menu-item {
+			.sub-menu li a:focus, a:focus {
+				background-color: $color-menu-bg;
+				color: $color-menu-link;
+			}
+		}
+		button:focus {
+			background-color: transparent;
+			color: $color-menu-link;
+		}
+	}
+	.menu-toggle:hover,
+	.nav-primary {
+		background-color: transparent;
+		color: $color-menu-link;
+	}
+	.menu-toggle:focus {
+		background-color: transparent;
+		color: $color-menu-link;
+	}
+	.nav-header .genesis-nav-menu .menu-item a,
+	.nav-secondary .genesis-nav-menu .menu-item a {
+		color: #333;
+	}
+	.nav-secondary {
+		background-color: transparent;
+		padding: 0;
+	}
+}

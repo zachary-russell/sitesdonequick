@@ -1,0 +1,107 @@
+/* Plugins
+---------------------------------------------------------------------------------------------------- */
+
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget {
+	color: #fff;
+	.widget-title {
+		color: $color-light-link;
+	}
+}
+
+.sidebar .widget.enews-widget {
+	background-color: $color-dark-bg;
+	padding: 40px;
+}
+
+.enews-widget input {
+	border: 1px solid #333;
+	&:focus {
+		border: 1px solid #333;
+	}
+	font-size: 16px;
+	margin-bottom: 16px;
+	&[type="submit"] {
+		@include background-text-combo($color-button-hover, #fff);
+		margin: 0;
+		width: 100%;
+	}
+	&:hover[type="submit"] {
+		@include background-text-combo(#fff, $color-body);
+	}
+}
+
+.enews form + p {
+	margin-top: 24px;
+}
+
+/* Genesis Simple Share
+--------------------------------------------- */
+
+.content {
+	.share-after {
+		margin-bottom: 20px;
+	}
+	a {
+		&.count,
+		&.share {
+			border: none;
+			font-weight: $base-font-weight;
+			&:hover {
+				border: none;
+				font-weight: $base-font-weight;
+			}
+		}
+	}
+	.share-filled {
+		.share {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+		.count {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		.facebook .count,
+		.googlePlus .count,
+		.linkedin .count,
+		.pinterest .count,
+		.stumbleupon .count,
+		.twitter .count {
+			color: $color-body;
+			border: 1px solid #333;
+			&:hover {
+				color: $color-body;
+				border: 1px solid #333;
+			}
+		}
+		.facebook,
+		.googlePlus,
+		.linkedin,
+		.pinterest,
+		.stumbleupon,
+		.twitter {
+			.share,
+			&:hover .count {
+				background: $color-button-bg !important;
+			}
+		}
+		.facebook:hover .count,
+		.googlePlus:hover .count,
+		.linkedin:hover .count,
+		.pinterest:hover .count,
+		.stumbleupon:hover .count,
+		.twitter:hover .count {
+			color: $color-light-link;
+		}
+	}
+}
+
+/* Jetpack
+--------------------------------------------- */
+
+#wpstats {
+	display: none;
+}
