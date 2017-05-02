@@ -41,6 +41,7 @@ function mobile_first_sass_scripts_styles() {
 	$handle  = defined( 'CHILD_THEME_NAME' ) && CHILD_THEME_NAME ? sanitize_title_with_dashes( CHILD_THEME_NAME ) : 'child-theme';
 
 	wp_enqueue_style( $handle, get_stylesheet_directory_uri() . '/style.min.css', false, $version);
+    wp_enqueue_style( 'fonts', 'https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans' );
 
 }
 

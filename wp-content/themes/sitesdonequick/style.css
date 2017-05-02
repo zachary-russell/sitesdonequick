@@ -297,7 +297,7 @@ body {
   background-color: #f5f5f5;
   color: #333;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.625;
   margin: 0;
@@ -366,7 +366,7 @@ blockquote {
 --------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 20px; }
