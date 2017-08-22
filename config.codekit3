@@ -15,6 +15,114 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_accessibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_accessibility.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_colors.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_colors.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_common-classes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_common-classes.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_content-area.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_content-area.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_defaults.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_defaults.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_footer-widgets.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_footer-widgets.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_media-queries.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_media-queries.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_plugins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_plugins.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_reset.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_reset.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_sidebars.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_sidebars.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-footer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-footer.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-header.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-header.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-navigation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_site-navigation.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_structure-layout.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_structure-layout.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_variables.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_widgets.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/82e103526f8e9cc2f1bda7e328046c4a36e2a2cd\/_widgets.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d37a6efec6be4550ba350cf26be7b2126891bbed\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/d37a6efec6be4550ba350cf26be7b2126891bbed\/style.scssc",
+		"oF": 0
+		},
 	"\/functions.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -155,6 +263,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/lib\/theme-defaults.php",
+		"oF": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
 		"oF": 0
 		},
 	"\/package.json": {
@@ -398,6 +512,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/sass\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -406,8 +530,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/sass\/style.css",
-		"oF": 0,
+		"oAP": "\/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
